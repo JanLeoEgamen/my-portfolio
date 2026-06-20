@@ -4,10 +4,7 @@
       "@/*": ["./src/*"]
     },
     "moduleResolution": "node",
-    "ignoreDeprecations": "6.0",
-    "module": "esnext",
-    "target": "esnext",
-    "jsx": "preserve"
+    "ignoreDeprecations": "6.0"
   },
   "exclude": ["node_modules", ".next"]
 }
