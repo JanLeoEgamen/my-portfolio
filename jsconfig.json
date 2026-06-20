@@ -3,6 +3,6 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "moduleResolution": "node16"
+    "ignoreDeprecations": "6.0"
   }
 }
