@@ -1,14 +1,14 @@
 export const about = {
-    name: "Your Name",
-    role: "Your Profession",
-    about: "A minimal, clean portfolio template built with Next.js. Perfect for developers who want a simple yet professional online presence without the complexity.",
-    email: "your.email@example.com",
+    name: "Jan Leo Egamen",
+    role: "Full Stack Software Engineer",
+    about: "A passionate Software Engineer with a strong foundation in full-stack development. I specialize in building scalable web applications using modern technologies like Next.js, React, TypeScript, and Laravel. With experience leading development teams and implementing complex systems, I'm dedicated to creating efficient, user-centric solutions that solve real-world problems.",
+    email: "janleoegamen@gmail.com",
 };
 
 export const seo = {
     title: `${about.name} | ${about.role}`,
-    description: "Minimal, clean Next.js portfolio template for developers seeking a simple, professional online presence without extra complexity.",
-    keywords: "portfolio, web developer, Next.js, developer portfolio, minimal portfolio",
+    description: "BS Information Technology student specializing in Software Engineering at PUP Taguig. Consistent President's Lister with internship experience at Synpulse Philippines. Skilled in full-stack development with Next.js, React, TypeScript, Laravel, and PostgreSQL.",
+    keywords: "Jan Leo Egamen, Software Engineer, Full-Stack Developer, PUP Taguig, President's Lister, Synpulse, Next.js Developer, React Developer, TypeScript, Laravel, PHP, Web Developer Portfolio, Software Engineering Intern",
 }
 
 export const forms = {
@@ -16,90 +16,103 @@ export const forms = {
 }
 
 export const skills = [
-    { name: "Html", alt: "html logo", icon: "/html.svg" },
-    { name: "Css", alt: "css logo", icon: "/css.svg" },
-    { name: "Js", alt: "js logo", icon: "/js.svg" },
-    { name: "Tailwind", alt: "tailwind logo", icon: "/tailwind.svg" },
-    { name: "React Js", alt: "react logo", icon: "/react.svg" },
-    { name: "Next Js", alt: "nextjs logo", icon: "/nextjs.svg" },
+    // Frontend
+    { name: "HTML", alt: "html logo", icon: "/html.svg" },
+    { name: "CSS", alt: "css logo", icon: "/css.svg" },
+    { name: "JavaScript", alt: "javascript logo", icon: "/javascript.svg" },
+    { name: "TypeScript", alt: "typescript logo", icon: "/typescript.svg" },
+    { name: "React", alt: "react logo", icon: "/react.svg" },
+    { name: "Next.js", alt: "nextjs logo", icon: "/nextjs.svg" },
+    { name: "Tailwind CSS", alt: "tailwind logo", icon: "/tailwind.svg" },
+    { name: "Bootstrap", alt: "bootstrap logo", icon: "/bootstrap.svg" },
+    
+    // Frameworks
+    { name: "Laravel", alt: "laravel logo", icon: "/laravel.svg" },
+    { name: "Spring Boot", alt: "spring boot logo", icon: "/springboot.svg" },
+    
+    // Databases
+    { name: "MySQL", alt: "mysql logo", icon: "/mysql.svg" },
+    { name: "PostgreSQL", alt: "postgresql logo", icon: "/postgresql.svg" },
+    
+    // ORM & Tools
+    { name: "Prisma", alt: "prisma logo", icon: "/prisma.svg" },
+    { name: "Docker", alt: "docker logo", icon: "/docker.svg" },
+    { name: "Git", alt: "git logo", icon: "/git.svg" },
+    { name: "Jira", alt: "jira logo", icon: "/jira.svg" },
+    
 ];
 
 export const socials = {
-    github: "https://github.com/sachinbhujel",
-    twitter: "https://twitter.com/sachinbhujel909",
-    instagram: "https://www.instagram.com/imsachinbhujel",
-    facebook: "https://www.facebook.com/imsachinbhujel",
+    github: "https://github.com/JanLeoEgamen",
+    instagram: "https://www.instagram.com/jnjrjnn.algo/",
+    facebook: "https://www.facebook.com/jlegamen.7",
+    linkedin: "https://www.linkedin.com/in/jan-leo-egamen/",
 };
 
 export const projects = {
     pinProjects: [
         {
-            title: "Project 1",
-            description:
-                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
-            tags: ["CSS", "React Js"],
-            link: "",
+            title: "Membership Information Management System",
+            description: "Centralized system that automated 60% of manual club operations for Radio Engineering Circle Inc. Features include authentication, semi-automated membership processes, and administrative dashboards.",
+            tags: ["Laravel", "PHP", "JavaScript", "MySQL", "Tailwind CSS"],
+            link: "https://centralized-website.rec.org.ph/rec-home-page", // Add GitHub or live demo link if available
         },
         {
-            title: "Project 2",
-            description:
-                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
-            tags: ["CSS", "React Js"],
-            link: "",
+            title: "Canopy Farm PH Rental Management System",
+            description: "A comprehensive booking and management solution built for Canopy Farm PH to streamline rental operations. This system replaces manual tracking with a centralized, automated dashboard powered by the TALL stack.",
+            tags: ["Laravel", "PHP", "Livewire", "MySQL", "PayMongo"],
+            link: "https://canopyfarmph.com/guest/homepage", // Add GitHub or live demo link if available
         },
         {
-            title: "Project 3",
-            description:
-                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-            tags: ["CSS", "React Js"],
-            link: "",
+            title: "Company Asset Tracking Tool",
+            description: "Enterprise asset tracking system developed during internship at Synpulse Philippines. Features include audit trail system for tracking user activities, enhanced UI/UX, and responsive design. (Confidential, link cannot be provided)",
+            tags: ["React", "TypeScript", "Next.js", "Spring Boot", "Prisma", "PostgreSQL"],
         },
     ],
     otherProjects: [
         {
-            title: "Project 4",
-            description:
-                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
-            tags: ["CSS", "React Js"],
-            link: "",
+            title: "Personal Portfolio Website",
+            description: "Minimal and clean portfolio website built with Next.js, showcasing projects, skills, and professional experience with dark mode support and responsive design.",
+            tags: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+            link: "", // Add GitHub or live demo link if available
         },
         {
-            title: "Project 5",
-            description:
-                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
-            tags: ["CSS", "React Js"],
-            link: "",
+            title: "University Computer Society Management",
+            description: "Financial management system for PUP Taguig Computer Society, handling budgeting, expense tracking, and financial transparency for events and initiatives.",
+            tags: ["Financial Management", "Budgeting", "Event Management"],
+            link: "", // Add GitHub or live demo link if available
         },
-        {
-            title: "Project 6",
-            description:
-                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-            tags: ["CSS", "React Js"],
-            link: "",
-        },
+        // Add more projects as needed
     ],
 };
 
 export const experience = [
     {
-        title: "Frontend Developer at Tech Solutions",
-        description:
-            "Worked on building and maintaining responsive web applications using React.js and Next.js, improving UI performance and user experience.",
-        date: "15/01/2024",
+        title: "Software Engineering Intern - Synpulse Philippines Inc.",
+        company: "Synpulse Philippines Inc.",
+        description: "Developed and designed features for a company asset tracking tool using React, TypeScript, Next.js, Spring Boot, Prisma, and PostgreSQL. Implemented an audit trail system to track and log all user and system activities. Improved UI/UX through enhanced layouts, navigation, and responsiveness. Participated in Agile ceremonies including sprint planning, daily stand-ups, sprint reviews, and retrospectives. Presented project updates and final showcase to stakeholders.",
+        date: "February 2026 – May 2026",
     },
     {
-        title: "Web Developer Intern at Creative Studio",
-        description:
-            "Assisted in designing website layouts, wrote clean HTML/CSS code, and collaborated with the team on JavaScript features for client projects.",
-        date: "10/06/2023",
+        title: "Lead Full-Stack Developer - Radio Engineering Circle Inc.",
+        company: "Radio Engineering Circle Inc. ",
+        description: "Led a 4-member team in building a centralized system that automated 60% of manual club operations. Designed a full-stack solution with Laravel MVC (PHP, JavaScript, MySQL, Tailwind CSS), implementing authentication, semi-automated membership processes, and dashboards.",
+        date: "May 2025 – February 2026",
     },
     {
-        title: "Junior Developer at Innovate Labs",
-        description:
-            "Developed and tested frontend components, optimized web pages for speed, and contributed to team code reviews and debugging sessions.",
-        date: "01/09/2022",
+        title: "Backend Developer - Canopy Farm PH",
+        company: "Canopy Farm PH ",
+        description: "Using Livewire, PHP, Laravel, and MySQL, debugged and resolved critical system bugs to improve application stability and user experience. Aligned system processes with current business workflow logic. Developed rebooking features, room blocking functionality, day tour reservations, and integrated PayMongo webhook for payment processing.",
+        date: "September 2025 – January 2026",
+    },
+    {
+        title: "Vice President for Finance - PUPT - Computer Society",
+        company: "PUP Taguig - Computer Society",
+        description: "Managed financial operations, budgeting, ensured transparency and disbursements for events and initiatives. Oversaw financial planning and resource allocation for the organization.",
+        date: "A.Y. 2023–2024",
     },
 ];
+
 
 export const blogs = [
     {
