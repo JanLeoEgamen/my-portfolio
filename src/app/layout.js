@@ -1,6 +1,6 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import { seo } from "@/data/data";
+import { seo } from '../data/data';
 import CVButton from "./components/CVButton";
 
 export const metadata = {

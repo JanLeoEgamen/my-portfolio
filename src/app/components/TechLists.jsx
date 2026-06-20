@@ -1,5 +1,5 @@
 import Marquee from "./Marquee";
-import { skills } from "@/data/data";
+import { skills } from '../../data/data';
 
 export default function TechLists() {
     return (

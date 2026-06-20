@@ -1,6 +1,5 @@
-import { socials } from "@/data/data";
-import { about } from "@/data/data";
-
+import { socials } from '../../data/data';
+import { about } from '../../data/data';
 export default function Profile() {
     return (
         <>

@@ -1,5 +1,5 @@
 "use client";
-import { projects } from "@/data/data";
+import { projects } from '../../data/data';
 import Link from "next/link";
 
 export default function ProjectsList() {

@@ -67,6 +67,8 @@ export const projects = {
             title: "Company Asset Tracking Tool",
             description: "Enterprise asset tracking system developed during internship at Synpulse Philippines. Features include audit trail system for tracking user activities, enhanced UI/UX, and responsive design. (Confidential, link cannot be provided)",
             tags: ["React", "TypeScript", "Next.js", "Spring Boot", "Prisma", "PostgreSQL"],
+            link: "", // Add GitHub or live demo link if available
+
         },
     ],
     otherProjects: [
