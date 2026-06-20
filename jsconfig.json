@@ -3,8 +3,11 @@
     "paths": {
       "@/*": ["./src/*"]
     },
+    "moduleResolution": "node",
+    "ignoreDeprecations": "6.0",
     "module": "esnext",
-    "moduleResolution": "bundler",
-    "target": "esnext"
-  }
+    "target": "esnext",
+    "jsx": "preserve"
+  },
+  "exclude": ["node_modules", ".next"]
 }
